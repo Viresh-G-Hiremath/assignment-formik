@@ -1,0 +1,64 @@
+form {
+  background-color: rgb(248, 245, 245);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+label {
+  display: inline-flex;
+  align-items: center;
+  margin: 5px;
+}
+label input,
+select {
+  margin: 0 5px;
+  height: 15px;
+  font-size: xx-small;
+}
+input[name="name"] {
+  width: 210px;
+}
+input[name="age"] {
+  width: 140px;
+}
+input[name="address"] {
+  width: 185px;
+}
+select[name="state"] {
+  width: 160px;
+}
+input[name="enumber"] {
+  width: 151px;
+}
+h5 {
+  text-decoration: underline;
+}
+button[type="submit"] {
+  padding: 10px;
+  margin-left: 50px;
+  background-color: green;
+  border: none;
+  border-radius: 2px;
+  color: white;
+}
+button[type="reset"] {
+  padding: 10px;
+  margin: auto;
+  border: 1px solid red;
+  border-radius: 2px;
+  color: red;
+}
+.buttons {
+  margin-left: 650px;
+}
+.details4 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.details1,
+.details2,
+.details3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}

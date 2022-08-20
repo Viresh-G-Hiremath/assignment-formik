@@ -1,0 +1,17 @@
+.FormList {
+  background-color: rgb(248, 245, 245);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: xx-small;
+}
+table,
+td,
+th {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
